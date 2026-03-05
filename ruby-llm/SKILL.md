@@ -58,18 +58,18 @@ OpenAI, Anthropic, Google Gemini, AWS Bedrock, DeepSeek, Mistral, Ollama (local)
 
 For detailed information on each feature, see the reference files:
 
-- **Getting Started**: [getting-started.md](getting-started.md) - Quick start guide
-- **Configuration**: [configuration.md](configuration.md) - API keys, defaults, and settings
-- **Chat**: [chat.md](chat.md) - Conversational AI interactions
-- **Tools**: [tools.md](tools.md) - Function calling and tool definitions
-- **Streaming**: [streaming.md](streaming.md) - Real-time response streaming
-- **Embeddings**: [embeddings.md](embeddings.md) - Text vectorization
-- **Image Generation**: [image-generation.md](image-generation.md) - AI image creation
-- **Audio Transcription**: [audio-transcription.md](audio-transcription.md) - Speech to text
-- **Moderation**: [moderation.md](moderation.md) - Content safety checking
-- **Extended Thinking**: [thinking.md](thinking.md) - Reasoning models
-- **Rails Integration**: [rails.md](rails.md) - ActiveRecord persistence
-- **Async**: [async.md](async.md) - Concurrent operations
-- **Error Handling**: [error-handling.md](error-handling.md) - Graceful error management
-- **Model Registry**: [models.md](models.md) - Model discovery and capabilities
-- **Agentic Workflows**: [agentic-workflows.md](agentic-workflows.md) - Orchestrating multiple agents
+- **Getting Started**: @rules/getting-started.md
+- **Configuration**: @rules/configuration.md
+- **Chat**: @rules/chat.md
+- **Tools**: @rules/tools.md
+- **Streaming**: @rules/streaming.md
+- **Embeddings**: @rules/embeddings.md
+- **Image Generation**: @rules/image-generation.md
+- **Audio Transcription**: @rules/audio-transcription.md
+- **Moderation**: @rules/moderation.md
+- **Extended Thinking**: @rules/thinking.md
+- **Rails Integration**: @rules/rails.md
+- **Async**: @rules/async.md
+- **Error Handling**: @rules/error-handling.md
+- **Model Registry**: @rules/models.md
+- **Agentic Workflows**: @rules/agentic-workflows.md
