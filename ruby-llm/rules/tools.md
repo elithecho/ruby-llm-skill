@@ -39,7 +39,7 @@ end
 ### Tool Components
 
 1. **Inheritance**: Must inherit from `RubyLLM::Tool`
-2. **`description`**: Defines what the tool does (crucial for the AI)
+2. **`description`**: Defines what the tool does (used by the model for tool selection)
 3. **`params`**: DSL for describing input schema (v1.9+)
 4. **`execute` Method**: Contains your Ruby code
 

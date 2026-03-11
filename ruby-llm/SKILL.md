@@ -14,7 +14,7 @@ response = chat.ask "What is Ruby?"
 puts response.content
 
 # With a specific model
-chat = RubyLLM.chat(model: 'claude-sonnet-4-5')
+chat = RubyLLM.chat(model: 'gpt-5')
 response = chat.ask "Explain Ruby metaprogramming"
 
 # Generate images

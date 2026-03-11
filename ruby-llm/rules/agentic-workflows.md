@@ -17,7 +17,7 @@ class ResearchAgent < RubyLLM::Agent
 end
 
 class WriterAgent < RubyLLM::Agent
-  model "claude-sonnet-4-5"
+  model "gpt-5"
   instructions "Write a clear article from research notes."
 end
 
@@ -43,7 +43,7 @@ class CodeAgent < RubyLLM::Agent
 end
 
 class CreativeAgent < RubyLLM::Agent
-  model "claude-sonnet-4"
+  model "gpt-5"
   instructions "Be creative and expressive."
 end
 
@@ -122,7 +122,7 @@ Use when multiple specialists produce outputs for synthesis:
 require 'async'
 
 class SecurityReviewAgent < RubyLLM::Agent
-  model "claude-sonnet-4-5"
+  model "gpt-5"
   instructions "Review code for security issues."
 end
 
@@ -203,6 +203,10 @@ end
 ```
 
 ## RAG as a Workflow Step
+
+### Best Practices
+
+**Don't use tool descriptions as prompts.** Tool descriptions are used by the model to understand what a tool does, but they shouldn't be included as part of the prompt sent to the model. Let the model use tool descriptions directly through the tool-calling mechanism.
 
 ### Setup
 
